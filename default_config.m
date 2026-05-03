@@ -1,3 +1,4 @@
+%%%
 function cfg = default_config()
 %DEFAULT_CONFIG Default settings for the SCIS DeePC package.
 root = fileparts(mfilename('fullpath'));
