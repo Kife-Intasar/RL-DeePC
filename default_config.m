@@ -10,7 +10,7 @@ addpath(fullfile(root,'configs'));
 addpath(fullfile(root,'prediction'));
 
 cfg.seed = 5;
-cfg.benchmark_names = available_benchmarks('scis10');
+cfg.benchmark_names = available_benchmarks('all');
 
 % Use a profile instead of tiny global caps.
 cfg = set_prediction_profile(cfg,'standard');
